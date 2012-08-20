@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D71A5A15E3050C006EB99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5915E3050C006EB99E /* UIKit.framework */; };
+		A2D71A5C15E3050C006EB99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5B15E3050C006EB99E /* Foundation.framework */; };
+		A2D71A5E15E3050C006EB99E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5D15E3050C006EB99E /* CoreGraphics.framework */; };
+		A2D71A6415E3050C006EB99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D71A6215E3050C006EB99E /* InfoPlist.strings */; };
+		A2D71A6615E3050C006EB99E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D71A6515E3050C006EB99E /* main.m */; };
+		A2D71A6A15E3050C006EB99E /* NCMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D71A6915E3050C006EB99E /* NCMAppDelegate.m */; };
+		A2D71A6D15E3050C006EB99E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D71A6B15E3050C006EB99E /* MainStoryboard_iPhone.storyboard */; };
+		A2D71A7015E3050C006EB99E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D71A6E15E3050C006EB99E /* MainStoryboard_iPad.storyboard */; };
+		A2D71A7315E3050C006EB99E /* NCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D71A7215E3050C006EB99E /* NCMViewController.m */; };
+		A2D71A7B15E3050D006EB99E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A7A15E3050D006EB99E /* SenTestingKit.framework */; };
+		A2D71A7C15E3050D006EB99E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5915E3050C006EB99E /* UIKit.framework */; };
+		A2D71A7D15E3050D006EB99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5B15E3050C006EB99E /* Foundation.framework */; };
+		A2D71A8515E3050D006EB99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D71A8315E3050D006EB99E /* InfoPlist.strings */; };
+		A2D71A8815E3050D006EB99E /* LevelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D71A8715E3050D006EB99E /* LevelerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D71A7E15E3050D006EB99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D71A4C15E3050C006EB99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D71A5415E3050C006EB99E;
+			remoteInfo = Leveler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D71A5515E3050C006EB99E /* Leveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D71A5915E3050C006EB99E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2D71A5B15E3050C006EB99E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2D71A5D15E3050C006EB99E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2D71A6115E3050C006EB99E /* Leveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Leveler-Info.plist"; sourceTree = "<group>"; };
+		A2D71A6315E3050C006EB99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2D71A6515E3050C006EB99E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D71A6715E3050C006EB99E /* Leveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Leveler-Prefix.pch"; sourceTree = "<group>"; };
+		A2D71A6815E3050C006EB99E /* NCMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCMAppDelegate.h; sourceTree = "<group>"; };
+		A2D71A6915E3050C006EB99E /* NCMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCMAppDelegate.m; sourceTree = "<group>"; };
+		A2D71A6C15E3050C006EB99E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A2D71A6F15E3050C006EB99E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A2D71A7115E3050C006EB99E /* NCMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCMViewController.h; sourceTree = "<group>"; };
+		A2D71A7215E3050C006EB99E /* NCMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCMViewController.m; sourceTree = "<group>"; };
+		A2D71A7915E3050D006EB99E /* LevelerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D71A7A15E3050D006EB99E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2D71A8215E3050D006EB99E /* LevelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevelerTests-Info.plist"; sourceTree = "<group>"; };
+		A2D71A8415E3050D006EB99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2D71A8615E3050D006EB99E /* LevelerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelerTests.h; sourceTree = "<group>"; };
+		A2D71A8715E3050D006EB99E /* LevelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D71A5215E3050C006EB99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A5A15E3050C006EB99E /* UIKit.framework in Frameworks */,
+				A2D71A5C15E3050C006EB99E /* Foundation.framework in Frameworks */,
+				A2D71A5E15E3050C006EB99E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D71A7515E3050D006EB99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A7B15E3050D006EB99E /* SenTestingKit.framework in Frameworks */,
+				A2D71A7C15E3050D006EB99E /* UIKit.framework in Frameworks */,
+				A2D71A7D15E3050D006EB99E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D71A4A15E3050C006EB99E = {
+			isa = PBXGroup;
+			children = (
+				A2D71A5F15E3050C006EB99E /* Leveler */,
+				A2D71A8015E3050D006EB99E /* LevelerTests */,
+				A2D71A5815E3050C006EB99E /* Frameworks */,
+				A2D71A5615E3050C006EB99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D71A5615E3050C006EB99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A5515E3050C006EB99E /* Leveler.app */,
+				A2D71A7915E3050D006EB99E /* LevelerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D71A5815E3050C006EB99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A5915E3050C006EB99E /* UIKit.framework */,
+				A2D71A5B15E3050C006EB99E /* Foundation.framework */,
+				A2D71A5D15E3050C006EB99E /* CoreGraphics.framework */,
+				A2D71A7A15E3050D006EB99E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D71A5F15E3050C006EB99E /* Leveler */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A6815E3050C006EB99E /* NCMAppDelegate.h */,
+				A2D71A6915E3050C006EB99E /* NCMAppDelegate.m */,
+				A2D71A6B15E3050C006EB99E /* MainStoryboard_iPhone.storyboard */,
+				A2D71A6E15E3050C006EB99E /* MainStoryboard_iPad.storyboard */,
+				A2D71A7115E3050C006EB99E /* NCMViewController.h */,
+				A2D71A7215E3050C006EB99E /* NCMViewController.m */,
+				A2D71A6015E3050C006EB99E /* Supporting Files */,
+			);
+			path = Leveler;
+			sourceTree = "<group>";
+		};
+		A2D71A6015E3050C006EB99E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A6115E3050C006EB99E /* Leveler-Info.plist */,
+				A2D71A6215E3050C006EB99E /* InfoPlist.strings */,
+				A2D71A6515E3050C006EB99E /* main.m */,
+				A2D71A6715E3050C006EB99E /* Leveler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D71A8015E3050D006EB99E /* LevelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A8615E3050D006EB99E /* LevelerTests.h */,
+				A2D71A8715E3050D006EB99E /* LevelerTests.m */,
+				A2D71A8115E3050D006EB99E /* Supporting Files */,
+			);
+			path = LevelerTests;
+			sourceTree = "<group>";
+		};
+		A2D71A8115E3050D006EB99E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D71A8215E3050D006EB99E /* LevelerTests-Info.plist */,
+				A2D71A8315E3050D006EB99E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D71A5415E3050C006EB99E /* Leveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D71A8B15E3050D006EB99E /* Build configuration list for PBXNativeTarget "Leveler" */;
+			buildPhases = (
+				A2D71A5115E3050C006EB99E /* Sources */,
+				A2D71A5215E3050C006EB99E /* Frameworks */,
+				A2D71A5315E3050C006EB99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leveler;
+			productName = Leveler;
+			productReference = A2D71A5515E3050C006EB99E /* Leveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D71A7815E3050D006EB99E /* LevelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D71A8E15E3050D006EB99E /* Build configuration list for PBXNativeTarget "LevelerTests" */;
+			buildPhases = (
+				A2D71A7415E3050D006EB99E /* Sources */,
+				A2D71A7515E3050D006EB99E /* Frameworks */,
+				A2D71A7615E3050D006EB99E /* Resources */,
+				A2D71A7715E3050D006EB99E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D71A7F15E3050D006EB99E /* PBXTargetDependency */,
+			);
+			name = LevelerTests;
+			productName = LevelerTests;
+			productReference = A2D71A7915E3050D006EB99E /* LevelerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D71A4C15E3050C006EB99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NCM;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "NSCoder Madison";
+			};
+			buildConfigurationList = A2D71A4F15E3050C006EB99E /* Build configuration list for PBXProject "Leveler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2D71A4A15E3050C006EB99E;
+			productRefGroup = A2D71A5615E3050C006EB99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D71A5415E3050C006EB99E /* Leveler */,
+				A2D71A7815E3050D006EB99E /* LevelerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D71A5315E3050C006EB99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A6415E3050C006EB99E /* InfoPlist.strings in Resources */,
+				A2D71A6D15E3050C006EB99E /* MainStoryboard_iPhone.storyboard in Resources */,
+				A2D71A7015E3050C006EB99E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D71A7615E3050D006EB99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A8515E3050D006EB99E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2D71A7715E3050D006EB99E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D71A5115E3050C006EB99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A6615E3050C006EB99E /* main.m in Sources */,
+				A2D71A6A15E3050C006EB99E /* NCMAppDelegate.m in Sources */,
+				A2D71A7315E3050C006EB99E /* NCMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D71A7415E3050D006EB99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D71A8815E3050D006EB99E /* LevelerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D71A7F15E3050D006EB99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D71A5415E3050C006EB99E /* Leveler */;
+			targetProxy = A2D71A7E15E3050D006EB99E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D71A6215E3050C006EB99E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D71A6315E3050C006EB99E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2D71A6B15E3050C006EB99E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D71A6C15E3050C006EB99E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D71A6E15E3050C006EB99E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D71A6F15E3050C006EB99E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D71A8315E3050D006EB99E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D71A8415E3050D006EB99E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D71A8915E3050D006EB99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D71A8A15E3050D006EB99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D71A8C15E3050D006EB99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leveler/Leveler-Prefix.pch";
+				INFOPLIST_FILE = "Leveler/Leveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2D71A8D15E3050D006EB99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leveler/Leveler-Prefix.pch";
+				INFOPLIST_FILE = "Leveler/Leveler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2D71A8F15E3050D006EB99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Leveler.app/Leveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leveler/Leveler-Prefix.pch";
+				INFOPLIST_FILE = "LevelerTests/LevelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2D71A9015E3050D006EB99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Leveler.app/Leveler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Leveler/Leveler-Prefix.pch";
+				INFOPLIST_FILE = "LevelerTests/LevelerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D71A4F15E3050C006EB99E /* Build configuration list for PBXProject "Leveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D71A8915E3050D006EB99E /* Debug */,
+				A2D71A8A15E3050D006EB99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D71A8B15E3050D006EB99E /* Build configuration list for PBXNativeTarget "Leveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D71A8C15E3050D006EB99E /* Debug */,
+				A2D71A8D15E3050D006EB99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2D71A8E15E3050D006EB99E /* Build configuration list for PBXNativeTarget "LevelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D71A8F15E3050D006EB99E /* Debug */,
+				A2D71A9015E3050D006EB99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D71A4C15E3050C006EB99E /* Project object */;
+}
