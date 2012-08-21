@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
-@interface NCMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface NCMAppDelegate : UIResponder <UIApplicationDelegate, UIAccelerometerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSMutableArray *accels;
 
 @end

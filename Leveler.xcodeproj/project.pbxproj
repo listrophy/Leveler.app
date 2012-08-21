@@ -21,6 +21,7 @@
 		A2D71A7D15E3050D006EB99E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A5B15E3050C006EB99E /* Foundation.framework */; };
 		A2D71A8515E3050D006EB99E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2D71A8315E3050D006EB99E /* InfoPlist.strings */; };
 		A2D71A8815E3050D006EB99E /* LevelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D71A8715E3050D006EB99E /* LevelerTests.m */; };
+		A2D71A9315E30588006EB99E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D71A9215E30588006EB99E /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A2D71A8415E3050D006EB99E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2D71A8615E3050D006EB99E /* LevelerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LevelerTests.h; sourceTree = "<group>"; };
 		A2D71A8715E3050D006EB99E /* LevelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LevelerTests.m; sourceTree = "<group>"; };
+		A2D71A9215E30588006EB99E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D71A9315E30588006EB99E /* CoreMotion.framework in Frameworks */,
 				A2D71A5A15E3050C006EB99E /* UIKit.framework in Frameworks */,
 				A2D71A5C15E3050C006EB99E /* Foundation.framework in Frameworks */,
 				A2D71A5E15E3050C006EB99E /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		A2D71A5815E3050C006EB99E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A2D71A9215E30588006EB99E /* CoreMotion.framework */,
 				A2D71A5915E3050C006EB99E /* UIKit.framework */,
 				A2D71A5B15E3050C006EB99E /* Foundation.framework */,
 				A2D71A5D15E3050C006EB99E /* CoreGraphics.framework */,
